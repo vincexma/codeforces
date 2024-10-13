@@ -6,7 +6,7 @@ https://codeforces.com/profile/vincexma?graphType=all
 problem training sequence based on
 https://codeforcesladders.firebaseapp.com/
 
-# useful
+# useful cmd
 ```
  grep -rni "string" *
 ```
@@ -20,9 +20,13 @@ https://codeforcesladders.firebaseapp.com/
  ./out
  <input>
 ```
+
+# boilerplate
 ```
 #include <iostream>
 #include <string>
+
+#define MAX(a, b) ((a) > (b) ? (a) : (b))
 
 using namespace std;
 
